@@ -1,0 +1,22 @@
+[21-May-2024 17:18:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\Experiments\Manager' not found in /home/gkvfaywj/cbamapola.com/wp-content/plugins/elementor/includes/plugin.php:706
+Stack trace:
+#0 /home/gkvfaywj/cbamapola.com/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#1 /home/gkvfaywj/cbamapola.com/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init('')
+#2 /home/gkvfaywj/cbamapola.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home/gkvfaywj/cbamapola.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/gkvfaywj/cbamapola.com/wp-settings.php(695): do_action('init')
+#5 /home/gkvfaywj/cbamapola.com/wp-config.php(97): require_once('/home/gkvfaywj/...')
+#6 /home/gkvfaywj/cbamapola.com/wp-load.php(50): require_once('/home/gkvfaywj/...')
+#7 /home/gkvfaywj/cbamapola.com/wp-blog-header.php(13): require_once('/home/gkvfaywj/...')
+#8 /home/gkvfaywj/cbamapola.com/index.php(17): require('/home/gkvfaywj/...')
+#9 {main}
+  thrown in /home/gkvfaywj/cbamapola.com/wp-content/plugins/elementor/includes/plugin.php on line 706
+[03-Jul-2024 01:00:02 UTC] Error de evento de reprogramación de cron para el gancho: litespeed_task_imgoptm_pull. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"litespeed_filter","args":[],"interval":60}
+[14-Jul-2024 21:57:29 UTC] Error de evento de reprogramación de cron para el gancho: litespeed_task_lqip. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"litespeed_filter","args":[],"interval":60}
+[11-Sep-2024 16:07:07 UTC] Error de evento de reprogramación de cron para el gancho: action_scheduler_run_queue. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[12-Sep-2024 21:43:54 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/gkvfaywj/cbamapola.com/wp-includes/load.php on line 386
+[12-Oct-2024 03:34:34 UTC] Error de evento de reprogramación de cron para el gancho: litespeed_task_imgoptm_pull. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"litespeed_filter","args":[],"interval":60}
+[12-Nov-2024 07:06:00 UTC] Error de evento de reprogramación de cron para el gancho: litespeed_task_lqip. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"litespeed_filter","args":[],"interval":60}
+[10-Dec-2024 16:36:28 UTC] Error de evento de reprogramación de cron para el gancho: litespeed_task_imgoptm_pull. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"litespeed_filter","args":[],"interval":60}
+[12-Dec-2024 13:18:51 UTC] Error de evento de reprogramación de cron para el gancho: litespeed_task_imgoptm_pull. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"litespeed_filter","args":[],"interval":60}
+[12-Dec-2024 13:18:51 UTC] Error de evento de anulación de programación de cron para el gancho: litespeed_task_imgoptm_pull. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"litespeed_filter","args":[],"interval":60}
